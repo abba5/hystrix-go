@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/afex/hystrix-go/hystrix/metric_collector"
+	metricCollector "github.com/abba5/hystrix-go/hystrix/metric_collector"
 	"github.com/rcrowley/go-metrics"
 )
 

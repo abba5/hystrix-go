@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/afex/hystrix-go/hystrix/rolling"
+	"github.com/abba5/hystrix-go/hystrix/rolling"
 )
 
 const (

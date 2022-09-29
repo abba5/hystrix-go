@@ -21,4 +21,5 @@ go get github.com/DataDog/datadog-go/statsd
 
 chown -R vagrant:vagrant /go
 
-echo "cd /go/src/github.com/afex/hystrix-go" >> /home/vagrant/.bashrc
+echo "cd /go/src/github.com/abba5/hystrix-go" >> /home/vagrant/.bashrc
+
