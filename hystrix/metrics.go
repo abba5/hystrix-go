@@ -78,6 +78,8 @@ func (m *metricExchange) IncrementMetrics(wg *sync.WaitGroup, collector metricCo
 	switch update.Types[0] {
 	case "success":
 		r.Successes = 1
+	case "bad-requests":
+		r.BadRequests = 1
 	case "failure":
 		r.Failures = 1
 		r.Errors = 1
